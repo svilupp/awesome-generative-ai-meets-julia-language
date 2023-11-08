@@ -9,9 +9,11 @@ A curated list of great generative AI projects, packages, APIs, products, and le
     - [Models](#models)
     - [API SDKs](#api-sdks)
     - [Packages](#packages)
+    - [JLL Packages](#jll-packages)
     - [Applications/Products](#applicationsproducts)
     - [Tutorials/learning](#tutorialslearning)
     - [Noteworthy Mentions](#noteworthy-mentions)
+    - [Must-Know Python Projects](#must-know-python-projects)
   - [Other Awesome Lists](#other-awesome-lists)
 
 ## Generative AI Projects and Julia
@@ -47,6 +49,12 @@ Access Generative AI models via SDKs of popular cloud service providers.
 - [GenGPT3.jl](https://github.com/probcomp/GenGPT3.jl) - A [Gen.jl](https://www.gen.dev/) generative function that wraps the OpenAI API.
 - [GPTCodingTools.jl](https://github.com/svilupp/GPTCodingTools) - Code generation tool for Julia language with useful prompt templates and self-healing features (ala OpenAI Code Interpreter). It does work, but development has been abandoned. (Disclaimer: I'm the author of this package)
 
+### JLL Packages
+
+[JLLs](https://docs.binarybuilder.org/stable/jll/) are prebuilt libraries and executables to easily install and call non-Julia projects (eg, C/C++). Often they are the first step towards a Julia package with an idiomatic interface.
+
+- [llama_cpp_jll.jl](https://juliahub.com/ui/Packages/General/llama_cpp_jll/) - JLL package for [llama2.cpp](https://github.com/ggerganov/llama.cpp), the best interface for quantized llama2-style models.
+
 ### Applications/Products
 
 Applications and products that "work" with Julia language.
@@ -76,6 +84,16 @@ Some of the below projects are not necessarily Julia-specific, but noteworthy me
 **Generative AI - Previous Generation**
 
 - [GenerativeModels.jl](https://github.com/aicenter/GenerativeModels.jl) - Useful library to train more traditional generative models like VAEs. It's built on top of Flux.jl.
+
+### Must-Know Python Projects
+
+Python is on the leading edge of the generative AI revolution. Fortunately, we have [PythonCall.jl](https://github.com/JuliaPy/PythonCall.jl) allowing us to easily call all the below Python packages.
+
+- [HuggingFace Transformers](https://huggingface.co/docs/transformers/index) - The most popular library for accessing LLMs and other models. It can be mostly used via Transformers.jl (see above).
+- [LangChain](https://github.com/langchain-ai/langchain) - The best option for building applications on top of LLMs (eg, Chains, Agents). It has a lot of adapters for common models, databases, and other services.
+- [Llama Index](https://github.com/run-llama/llama_index) - Similar to LangChain but with a focus on data-centered applications like RAG.
+- [Instructor](https://github.com/jxnl/instructor) - Simple yet powerful structured extraction framework on top of OpenAI API. Excellent to understand the power of function calling API together with Pydantic.
+- [Marvin](https://github.com/prefecthq/marvin) - Powerful building blocks to quickly build AI applications and expose them via a production-ready API.
 
 ## Other Awesome Lists
 
