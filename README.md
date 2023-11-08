@@ -1,6 +1,6 @@
 # Awesome Generative AI Meets Julia Programming Language
 
-A curated list of great generative AI projects, packages, APIs, products, and learning resources that can be accessed via or applied to the Julia programming language and projects within in. Whether you're accessing state-of-the-art models, building your own applications, or applying generative AI in innovative ways, this repository is your gateway to the expansive universe of generative AI in Julia.
+A curated list of great generative AI projects, packages, APIs, products, and learning resources that can be accessed via or applied to the Julia programming language and its ecosystem. Whether you're accessing state-of-the-art models, building your own applications, or applying generative AI in innovative ways, this repository is your gateway to the generative AI universe in Julia.
 
 ## Contents
 - [Awesome Generative AI Meets Julia Programming Language](#awesome-generative-ai-meets-julia-programming-language)
@@ -34,7 +34,7 @@ Build, train, and deploy Large language models in Julia.
 
 Access Generative AI models via official APIs.
 
-- [OpenAI.jl](https://github.com/JuliaML/OpenAI.jl) - A community maintained Julia wrapper to the OpenAI API. 
+- [OpenAI.jl](https://github.com/JuliaML/OpenAI.jl) - A community-maintained Julia wrapper to the OpenAI API. 
 
 **Cloud Services Providers**
 

@@ -15,7 +15,7 @@ Ensure your pull request adheres to the following guidelines:
 - Use the following format: `[Title](link) - Description.`
 - Additions should be added to the bottom of the relevant category.
 - If the submitted project is an open-source project on GitHub:
-	- It should have at least 20 stars.
+	- It should have at least 10 stars (where applicable)
 	- Link to the GitHub repo, not its website.
 - Keep descriptions short and simple, but descriptive.
 	- The description should not be a marketing tagline.
