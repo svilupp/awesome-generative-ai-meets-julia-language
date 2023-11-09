@@ -94,6 +94,7 @@ Python is on the leading edge of the generative AI revolution. Fortunately, we h
 - [Llama Index](https://github.com/run-llama/llama_index) - Similar to LangChain but with a focus on data-centered applications like RAG.
 - [Instructor](https://github.com/jxnl/instructor) - Simple yet powerful structured extraction framework on top of OpenAI API. Excellent to understand the power of function calling API together with Pydantic.
 - [Marvin](https://github.com/prefecthq/marvin) - Powerful building blocks to quickly build AI applications and expose them via a production-ready API.
+- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let LLMs run code on your computer (eg, Python, Javascript, Shell, and more). An open-source local alternative to OpenAI Code Interpreter.
 
 ## Other Awesome Lists
 
