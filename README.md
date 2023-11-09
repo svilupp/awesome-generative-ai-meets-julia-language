@@ -62,6 +62,7 @@ Applications and products that "work" with Julia language.
 - [GitHub Copilot](https://github.com/features/copilot) - Excellent inline suggestions with the help of OpenAI models. It works extremely well with Julia language for repetitive tasks one line at a time, but larger code chunks are rarely correct.
 - [Codium.ai](https://codium.ai/) - Great IDE or VSCode plugin for code analysis, suggestion and generation of test suites. Although the tests are written more in the style of Pytest rather than idiomatic Julia. It has a free tier.
 - [Replit](https://replit.com/ai) - Replit's REPL is powered by an in-house model that supports Julia language.
+- [Codeium](https://codeium.com/) - Free alternative to GitHub Copilot with extensions for most editors.
 
 Julia-affiliated applications and products using LLMs
 
