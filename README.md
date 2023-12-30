@@ -11,22 +11,22 @@ Julia is a high-level, high-performance dynamic language for technical computing
 
 <!-- omit from toc -->
 ## Contents
-- [Generative AI Projects and Julia](#generative-ai-projects-and-julia)
-  - [Models](#models)
-  - [API SDKs](#api-sdks)
-    - [Model Providers](#model-providers)
-    - [Cloud Services Providers](#cloud-services-providers)
-  - [Packages](#packages)
-  - [JLL Packages](#jll-packages)
-  - [Benchmarks/Comparisons](#benchmarkscomparisons)
-  - [Applications/Products](#applicationsproducts)
-  - [Tutorials/learning](#tutorialslearning)
-  - [Noteworthy Mentions](#noteworthy-mentions)
-    - [Local Deployments](#local-deployments)
-    - [Generative AI - Previous Generation](#generative-ai---previous-generation)
-  - [Must-Know Python Projects](#must-know-python-projects)
+- [Models](#models)
+- [API SDKs](#api-sdks)
+  - [Model Providers](#model-providers)
+  - [Cloud Services Providers](#cloud-services-providers)
+- [Packages](#packages)
+- [JLL Packages](#jll-packages)
+- [Benchmarks/Comparisons](#benchmarkscomparisons)
+- [Applications/Products](#applicationsproducts)
+- [Tutorials/learning](#tutorialslearning)
+- [Noteworthy Mentions](#noteworthy-mentions)
+  - [Local Deployments](#local-deployments)
+  - [Generative AI - Previous Generation](#generative-ai---previous-generation)
+- [Must-Know Python Projects](#must-know-python-projects)
 - [Other Awesome Lists](#other-awesome-lists)
 
+<!-- omit from toc -->
 ## Generative AI Projects and Julia
 
 ### Models
@@ -115,6 +115,6 @@ Python is on the leading edge of the generative AI revolution. Fortunately, we h
 - [Marvin](https://github.com/prefecthq/marvin) - Powerful building blocks to quickly build AI applications and expose them via a production-ready API.
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let LLMs run code on your computer (eg, Python, JavaScript, Shell, and more). An open-source local alternative to OpenAI Code Interpreter.
 
-## Other Awesome Lists
+### Other Awesome Lists
 
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - Great list for all things generative AI. An inspiration for this list!
