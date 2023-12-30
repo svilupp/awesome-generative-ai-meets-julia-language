@@ -18,6 +18,7 @@ Julia is a high-level, high-performance dynamic language for technical computing
     - [Cloud Services Providers](#cloud-services-providers)
   - [Packages](#packages)
   - [JLL Packages](#jll-packages)
+  - [Benchmarks/Comparisons](#benchmarkscomparisons)
   - [Applications/Products](#applicationsproducts)
   - [Tutorials/learning](#tutorialslearning)
   - [Noteworthy Mentions](#noteworthy-mentions)
@@ -66,6 +67,9 @@ Access Generative AI models via SDKs of popular cloud service providers.
 
 - [llama_cpp_jll.jl](https://juliahub.com/ui/Packages/General/llama_cpp_jll/) - JLL package for [llama2.cpp](https://github.com/ggerganov/llama.cpp), the best interface for quantized llama2-style models.
 
+### Benchmarks/Comparisons
+- [Julia LLM Leaderboard](https://github.com/svilupp/Julia-LLM-Leaderboard) - Comparison of Julia language generation capabilities of various Large Language Models across a range of tasks. Visit if you want help choosing the right model for your application.
+
 ### Applications/Products
 
 Applications and products that "work" with Julia language.
@@ -84,6 +88,8 @@ UI builder helping [Genie.jl's](https://github.com/GenieFramework/Genie.jl) user
 ### Tutorials/learning
 
 - [Tutorial for using LLMs with Transformers.jl](https://info.juliahub.com/large-language-model-llm-tutorial-with-julias-transformers.jl) - A brief tutorial on how to use Transformers.jl to access LLMs from HuggingFace Hub.
+- [Building a RAG Chatbot over DataFrames.jl Documentation - Hands-on Guide](https://forem.julialang.org/svilupp/building-a-rag-chatbot-over-dataframesjl-documentation-hands-on-guide-449m) - A hands-on guide on how to build a RAG chatbot over DataFrames.jl documentation using only minimal dependencies.
+- [GenAI Mini-Tasks: Extracting Data from (.*)? Look No Further!](https://forem.julialang.org/svilupp/genai-mini-tasks-extracting-data-from-look-no-further-2m32) - A tutorial on structured data extraction. A part of a larger series of tutorials on small tasks that can be done with GenAI.
 
 ### Noteworthy Mentions
 
@@ -92,6 +98,7 @@ Some of the below projects are not necessarily Julia-specific, but noteworthy me
 #### Local Deployments
 
 - [Ollama](https://github.com/jmorganca/ollama) - The best option for those looking to host a Large Language Model locally. Simply start the server and send the requests with [HTTP.jl](https://github.com/JuliaWeb/HTTP.jl).
+- [LM Studio](https://lmstudio.ai/) - A desktop app for hosting and interacting with LLMs locally. It's a great option for those who want to use LLMs without coding. It's free for **personal use**.
 
 #### Generative AI - Previous Generation
 
