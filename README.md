@@ -1,20 +1,30 @@
-# Awesome Generative AI Meets Julia Programming Language
+<!-- omit from toc -->
+# Awesome Generative AI Meets Julia Programming Language[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of great generative AI projects, packages, APIs, products, and learning resources that can be accessed via or applied to the Julia programming language and its ecosystem. Whether you're accessing state-of-the-art models, building your own applications, or applying generative AI in innovative ways, this repository is your gateway to the generative AI universe in Julia.
+> A curated list of great generative AI projects, packages, APIs, products, and learning resources that can be accessed via or applied to the Julia programming language and its ecosystem. Whether you're accessing state-of-the-art models, building your own applications, or applying generative AI in innovative ways, this repository is your gateway to the generative AI universe in Julia.
 
+[<img src="https://github.com/JuliaLang/julia/raw/master/doc/src/assets/logo.svg" align="right" width="100"/>](http://julialang.org)
+
+Julia is a high-level, high-performance dynamic language for technical computing. 
+
+<br>
+
+<!-- omit from toc -->
 ## Contents
-- [Awesome Generative AI Meets Julia Programming Language](#awesome-generative-ai-meets-julia-programming-language)
-  - [Contents](#contents)
-  - [Generative AI Projects and Julia](#generative-ai-projects-and-julia)
-    - [Models](#models)
-    - [API SDKs](#api-sdks)
-    - [Packages](#packages)
-    - [JLL Packages](#jll-packages)
-    - [Applications/Products](#applicationsproducts)
-    - [Tutorials/learning](#tutorialslearning)
-    - [Noteworthy Mentions](#noteworthy-mentions)
-    - [Must-Know Python Projects](#must-know-python-projects)
-  - [Other Awesome Lists](#other-awesome-lists)
+- [Generative AI Projects and Julia](#generative-ai-projects-and-julia)
+  - [Models](#models)
+  - [API SDKs](#api-sdks)
+    - [Model Providers](#model-providers)
+    - [Cloud Services Providers](#cloud-services-providers)
+  - [Packages](#packages)
+  - [JLL Packages](#jll-packages)
+  - [Applications/Products](#applicationsproducts)
+  - [Tutorials/learning](#tutorialslearning)
+  - [Noteworthy Mentions](#noteworthy-mentions)
+    - [Local Deployments](#local-deployments)
+    - [Generative AI - Previous Generation](#generative-ai---previous-generation)
+  - [Must-Know Python Projects](#must-know-python-projects)
+- [Other Awesome Lists](#other-awesome-lists)
 
 ## Generative AI Projects and Julia
 
@@ -30,13 +40,13 @@ Build, train, and deploy Large language models in Julia.
 
 ### API SDKs
 
-**Model Providers**
+#### Model Providers
 
 Access Generative AI models via official APIs.
 
 - [OpenAI.jl](https://github.com/JuliaML/OpenAI.jl) - A community-maintained Julia wrapper to the OpenAI API. 
 
-**Cloud Services Providers**
+#### Cloud Services Providers
 
 Access Generative AI models via SDKs of popular cloud service providers.
 
@@ -79,11 +89,11 @@ UI builder helping [Genie.jl's](https://github.com/GenieFramework/Genie.jl) user
 
 Some of the below projects are not necessarily Julia-specific, but noteworthy mentions in the generative AI space and interesting for Julia developers.
 
-**Local Deployments**
+#### Local Deployments
 
 - [Ollama](https://github.com/jmorganca/ollama) - The best option for those looking to host a Large Language Model locally. Simply start the server and send the requests with [HTTP.jl](https://github.com/JuliaWeb/HTTP.jl).
 
-**Generative AI - Previous Generation**
+#### Generative AI - Previous Generation
 
 - [GenerativeModels.jl](https://github.com/aicenter/GenerativeModels.jl) - Useful library to train more traditional generative models like VAEs. It's built on top of Flux.jl.
 
@@ -96,7 +106,7 @@ Python is on the leading edge of the generative AI revolution. Fortunately, we h
 - [Llama Index](https://github.com/run-llama/llama_index) - Similar to LangChain but with a focus on data-centered applications like RAG.
 - [Instructor](https://github.com/jxnl/instructor) - Simple yet powerful structured extraction framework on top of OpenAI API. Excellent to understand the power of function calling API together with Pydantic.
 - [Marvin](https://github.com/prefecthq/marvin) - Powerful building blocks to quickly build AI applications and expose them via a production-ready API.
-- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let LLMs run code on your computer (eg, Python, Javascript, Shell, and more). An open-source local alternative to OpenAI Code Interpreter.
+- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let LLMs run code on your computer (eg, Python, JavaScript, Shell, and more). An open-source local alternative to OpenAI Code Interpreter.
 
 ## Other Awesome Lists
 
