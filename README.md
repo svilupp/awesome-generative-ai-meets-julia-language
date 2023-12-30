@@ -1,7 +1,7 @@
 <!-- omit from toc -->
 # Awesome Generative AI Meets Julia Programming Language[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of great generative AI projects, packages, APIs, products, and learning resources that can be accessed via or applied to the Julia programming language and its ecosystem. Whether you're accessing state-of-the-art models, building your own applications, or applying generative AI in innovative ways, this repository is your gateway to the generative AI universe in Julia.
+> Comprehensive guide to generative AI projects and resources in Julia.
 
 [<img src="https://github.com/JuliaLang/julia/raw/master/doc/src/assets/logo.svg" align="right" width="100"/>](http://julialang.org)
 
