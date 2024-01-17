@@ -61,6 +61,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 - [GenGPT3.jl](https://github.com/probcomp/GenGPT3.jl) - A [Gen.jl](https://www.gen.dev/) generative function that wraps the OpenAI API.
 - [GPTCodingTools.jl](https://github.com/svilupp/GPTCodingTools) - Code generation tool for Julia language with useful prompt templates and self-healing features (ala OpenAI Code Interpreter). It does work, but development has been abandoned. (Disclaimer: I'm the author of this package.)
 - [PromptingTools.jl](https://github.com/svilupp/PromptingTools.jl) - Helps with everyday applications of Large Language Models in Julia by wrapping coming APIs, re-using prompts via templates, and enabling easy transition between different model providers (eg, OpenAI, Ollama). (Disclaimer: I'm the author of this package.)
+- [LLMTextAnalysis.jl](https://github.com/svilupp/LLMTextAnalysis.jl) - Leverage Large Language Models to uncover, evaluate, and label themes/concepts/spectra in large document collections. (Disclaimer: I'm the author of this package.)
 
 ## JLL Packages
 
