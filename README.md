@@ -65,7 +65,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 
 [JLLs](https://docs.binarybuilder.org/stable/jll/) are prebuilt libraries and executables to easily install and call non-Julia projects (eg, C/C++). Often they are the first step towards a Julia package with an idiomatic interface.
 
-- [llama_cpp_jll.jl](https://juliahub.com/ui/Packages/General/llama_cpp_jll/) - JLL package for [llama2.cpp](https://github.com/ggerganov/llama.cpp), the best interface for quantized llama2-style models.
+- [llama_cpp_jll.jl](https://juliahub.com/ui/Packages/General/llama_cpp_jll/) - JLL package for [llama.cpp](https://github.com/ggerganov/llama.cpp), the best interface for quantized llama2-style models.
 
 ## Benchmarks/Comparisons
 - [Julia LLM Leaderboard](https://github.com/svilupp/Julia-LLM-Leaderboard) - Comparison of Julia language generation capabilities of various Large Language Models across a range of tasks. Visit if you want help choosing the right model for your application.
@@ -78,13 +78,13 @@ Applications and products that "work" with Julia language.
 - [Codium.ai](https://codium.ai/) - Great IDE or VSCode plugin for code analysis, suggestion and generation of test suites. Although the tests are written more in the style of Pytest rather than idiomatic Julia. It has a free tier.
 - [Replit](https://replit.com/ai) - Replit's REPL is powered by an in-house model that supports Julia language.
 - [Codeium](https://codeium.com/) - Free alternative to GitHub Copilot with extensions for most editors.
-- [Comind](https://comind.me) - A social network, messaging, and LLM interface built in Julia.
 
 Julia-affiliated applications and products using LLMs
 
 - [JuliaHub AskAI](https://juliahub.com/ui/AskAI) - AskAI is a [JuliaHub's](https://juliahub.com) RAG (Retrieval Augmented Generation) application that allows users to ask questions about the Julia language and its ecosystem. It is free, but you need to be logged in to JuliaHub to use it.
 - [Genie UI Assistant](https://forem.julialang.org/pgimenez/introducing-genie-ui-assistant-the-ai-powered-ui-builder-for-genie-apps-3jpe) - Genie UI Assistant is a GPT-4 powered 
 UI builder helping [Genie.jl's](https://github.com/GenieFramework/Genie.jl) users create UIs faster using natural language.
+- [Comind](https://comind.me) - A social network, messaging, and LLM interface built in Julia.
 
 ## Tutorials/learning
 
