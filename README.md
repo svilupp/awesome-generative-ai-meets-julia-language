@@ -78,6 +78,7 @@ Applications and products that "work" with Julia language.
 - [Codium.ai](https://codium.ai/) - Great IDE or VSCode plugin for code analysis, suggestion and generation of test suites. Although the tests are written more in the style of Pytest rather than idiomatic Julia. It has a free tier.
 - [Replit](https://replit.com/ai) - Replit's REPL is powered by an in-house model that supports Julia language.
 - [Codeium](https://codeium.com/) - Free alternative to GitHub Copilot with extensions for most editors.
+- [Comind](https://comind.me) - A social network, messaging, and LLM interface built in Julia.
 
 Julia-affiliated applications and products using LLMs
 
