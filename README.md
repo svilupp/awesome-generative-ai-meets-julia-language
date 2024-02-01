@@ -36,7 +36,8 @@ Build, train, and deploy Large language models in Julia.
 - [Flux.jl](https://github.com/FluxML/Flux.jl) - Flux is a machine learning library for Julia that is flexible and allows building complex models. However, at the time of writing, I'm not aware of any Large Language Models (LLMs) that have been implemented and trained in Flux.
 - [Transformers.jl](https://github.com/chengchingwen/Transformers.jl) - Transformers.jl is a Julia package that provides a high-level API for using pre-trained transformer models. It also allows to download any models from Hugging Face hub with `@hgf_str` macro string.
 - [Pickle.jl](https://github.com/chengchingwen/Pickle.jl) - Great package for loading Pytorch weights into Julia (if you want to implement models yourself).
-- [Llama2.jl](https://github.com/cafaxo/Llama2.jl) - Llama2.jl provides simple code for inference and training of llama2-based language models based on [llama2.c](https://github.com/karpathy/llama2.c). It supports loading quantized weights in GGML format (q4_K_S variant). Other similar projects: [LanguageModels.jl](https://github.com/rai-llc/LanguageModels.jl)
+- [BytePairEncoding.jl](https://github.com/chengchingwen/BytePairEncoding.jl) - Pure Julia implementation of Byte Pair Encoding (BPE) algorithm. It's used by Transformers.jl to tokenize text.
+- [Llama2.jl](https://github.com/cafaxo/Llama2.jl) - Llama2.jl provides simple code for inference and training of llama2-based language models based on [llama2.c](https://github.com/karpathy/llama2.c). It supports loading quantized weights in GGUF format (`q4_K_S` variant). Other similar projects: [LanguageModels.jl](https://github.com/rai-llc/LanguageModels.jl)
 - [Llama.jl](https://github.com/marcom/Llama.jl/) - Julia interface to llama.cpp, a C/C++ library for running language models locally. Supports a wide range of models.
 
 
