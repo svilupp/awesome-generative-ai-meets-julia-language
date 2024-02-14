@@ -1,11 +1,13 @@
 <!-- omit from toc -->
 # Awesome Generative AI Meets Julia Programming Language[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Comprehensive guide to generative AI projects and resources in Julia.
+> Comprehensive guide to generative AI projects and resources in/for/associated with Julia.
 
 [<img src="https://github.com/JuliaLang/julia/raw/master/doc/src/assets/logo.svg" align="right" width="100"/>](http://julialang.org)
 
 Julia is a high-level, high-performance dynamic language for technical computing. 
+
+Generative AI encompasses algorithms and models that leverage large-scale machine learning to generate new content (across many modalities), automate, understand, parse, extract and much more, adapting to a wide range of applications beyond mere content creation.
 
 <br>
 
