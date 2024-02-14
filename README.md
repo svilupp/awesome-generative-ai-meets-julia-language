@@ -29,7 +29,7 @@ Julia is a high-level, high-performance dynamic language for technical computing
 
 ## Generative AI Projects and Julia
 
-- [JuliaGenAI Organization](http://juliagenai.org/) - JuliaGenAI is a community of Julia developers and researchers working on generative AI. Website is under construction.
+- [JuliaGenAI Organization](http://juliagenai.org/) - A Github organization and a community of Julia developers and researchers working on generative AI.
 
 > [!IMPORTANT]
 > **Google Summer of Code 2024 with JuliaGenAI**
