@@ -1,5 +1,5 @@
 <!-- omit from toc -->
-# Awesome Generative AI Meets Julia Programming Language[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Generative AI Meets Julia Programming Language [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Comprehensive guide to generative AI projects and resources in/for/associated with Julia.
 
