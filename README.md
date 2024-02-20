@@ -81,6 +81,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 
 ## Benchmarks/Comparisons
 - [Julia LLM Leaderboard](https://github.com/svilupp/Julia-LLM-Leaderboard) - Comparison of Julia language generation capabilities of various Large Language Models across a range of tasks. Visit if you want help choosing the right model for your application.
+- [HumanEval.jl](https://github.com/01-ai/HumanEval.jl) - The Julia version of [openai/human-eval](https://github.com/openai/human-eval). It rewrites the original Python problems into the Julia version and provides evaluation results with several latest LLMs.
 
 ## Applications/Products
 
