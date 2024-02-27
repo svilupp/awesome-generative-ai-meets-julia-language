@@ -17,6 +17,7 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
 - [API SDKs](#api-sdks)
   - [Model Providers](#model-providers)
   - [Cloud Services Providers](#cloud-services-providers)
+  - [Vector Databases](#vector-databases)
 - [Packages](#packages)
 - [JLL Packages](#jll-packages)
 - [Benchmarks/Comparisons](#benchmarkscomparisons)
@@ -63,6 +64,10 @@ Access Generative AI models via official APIs.
 Access Generative AI models via SDKs of popular cloud service providers.
 
 - [GoogleCloud.jl](https://github.com/JuliaCloud/GoogleCloud.jl) - SDK for Google Cloud. There is an [open PR](https://github.com/JuliaCloud/GoogleCloud.jl/pull/57) to enable Vertex AI endpoints.
+
+### Vector Databases
+
+- [Pinecone.jl](https://github.com/tullytim/Pinecone.jl) - SDK for [Pinecone.io](https://www.pinecone.io/) vector database.
 
 ## Packages
 
