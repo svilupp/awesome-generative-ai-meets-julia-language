@@ -18,6 +18,7 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
   - [Model Providers](#model-providers)
   - [Cloud Services Providers](#cloud-services-providers)
   - [Vector Databases](#vector-databases)
+  - [General purpose DBMS with vector index support](#general-purpose-dbms-with-vector-index-support)
 - [Packages](#packages)
 - [JLL Packages](#jll-packages)
 - [Benchmarks/Comparisons](#benchmarkscomparisons)
@@ -68,6 +69,15 @@ Access Generative AI models via SDKs of popular cloud service providers.
 ### Vector Databases
 
 - [Pinecone.jl](https://github.com/tullytim/Pinecone.jl) - SDK for [Pinecone.io](https://www.pinecone.io/) vector database.
+
+
+### General purpose DBMS with vector index support
+| Name                  | Julia client                | Usage examples                |
+|:---------------------:|:---------------------------:|:-----------------------------:|
+| [Elasticsearch](https://www.elastic.co/elasticsearch) | [ElasticsearchClient.jl](https://github.com/OpenSesame/ElasticsearchClient.jl) | [GptSeachPlugin with Elasticsearch](https://github.com/OpenSesame/GptSearchPlugin/tree/main/ext/ElasticsearchClientExt)  |
+| [OpenSearch](https://opensearch.org/) | [ElasticsearchClient.jl](https://github.com/OpenSesame/ElasticsearchClient.jl) | [GptSeachPlugin with Opensearch](https://github.com/OpenSesame/GptSearchPlugin/tree/main/ext/OpenSearchExt)  |
+| PostgreSQL + [pgvector](https://github.com/pgvector/pgvector?tab=readme-ov-file#hnsw) | [LibPQ.jl](https://github.com/iamed2/LibPQ.jl) | [pgvector examples for Julia](https://github.com/pgvector/pgvector-julia) |
+
 
 ## Packages
 
