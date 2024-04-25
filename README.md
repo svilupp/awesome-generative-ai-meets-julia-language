@@ -72,7 +72,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 
 
 ### General-purpose DBMS with Vector Index Support
-| Name                  | Julia client                | Usage examples                |
+| Name                  | Julia Client                | Usage Examples                |
 |:---------------------:|:---------------------------:|:-----------------------------:|
 | [Elasticsearch](https://www.elastic.co/elasticsearch) | [ElasticsearchClient.jl](https://github.com/LarsWl/ElasticsearchClient.jl) | [GptSeachPlugin with Elasticsearch](https://github.com/rssdev10/GptSearchPlugin/tree/main/ext/ElasticsearchClientExt)  |
 | [OpenSearch](https://opensearch.org/) | [ElasticsearchClient.jl](https://github.com/LarsWl/ElasticsearchClient.jl) | [GptSeachPlugin with Opensearch](https://github.com/rssdev10/GptSearchPlugin/tree/main/ext/OpenSearchExt)  |
