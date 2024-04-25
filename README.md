@@ -71,7 +71,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 - [Pinecone.jl](https://github.com/tullytim/Pinecone.jl) - SDK for [Pinecone.io](https://www.pinecone.io/) vector database.
 
 
-### General purpose DBMS with vector index support
+### General-purpose DBMS with Vector Index Support
 | Name                  | Julia client                | Usage examples                |
 |:---------------------:|:---------------------------:|:-----------------------------:|
 | [Elasticsearch](https://www.elastic.co/elasticsearch) | [ElasticsearchClient.jl](https://github.com/LarsWl/ElasticsearchClient.jl) | [GptSeachPlugin with Elasticsearch](https://github.com/rssdev10/GptSearchPlugin/tree/main/ext/ElasticsearchClientExt)  |
