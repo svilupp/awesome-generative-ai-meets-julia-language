@@ -18,7 +18,7 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
   - [Model Providers](#model-providers)
   - [Cloud Services Providers](#cloud-services-providers)
   - [Vector Databases](#vector-databases)
-  - [General purpose DBMS with vector index support](#general-purpose-dbms-with-vector-index-support)
+  - [General-purpose DBMS with Vector Index Support](#general-purpose-dbms-with-vector-index-support)
 - [Packages](#packages)
 - [JLL Packages](#jll-packages)
 - [Benchmarks/Comparisons](#benchmarkscomparisons)
