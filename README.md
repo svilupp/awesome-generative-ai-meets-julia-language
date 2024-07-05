@@ -59,6 +59,7 @@ Access Generative AI models via official APIs.
 Access Generative AI models via SDKs of popular cloud service providers.
 
 - [GoogleCloud.jl](https://github.com/JuliaCloud/GoogleCloud.jl) - SDK for Google Cloud. There is an [open PR](https://github.com/JuliaCloud/GoogleCloud.jl/pull/57) to enable Vertex AI endpoints.
+- [GoogleGenAI.jl](https://github.com/tylerjthomas9/GoogleGenAI.jl) - Unofficial wrapper for the Google Gemini API.
 
 ### Vector Databases
 
