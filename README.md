@@ -34,12 +34,6 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
 
 - [JuliaGenAI Organization](http://juliagenai.org/) - A GitHub organization and a community of Julia developers and researchers working on generative AI.
 
-> [!IMPORTANT]
-> **Google Summer of Code 2024 with JuliaGenAI**
->
-> Leap into JuliaGenAI's Google Summer of Code: Unleash your potential, learn about practical applications, and make pivotal contributions in the exciting world of generative AI with Julia—a chance to grow, impact, and thrive in an expanding ecosystem. 
-> [Learn more](https://julialang.org/jsoc/gsoc/juliagenai/)
-
 ## Models
 
 Build, train, and deploy Large language models in Julia.
@@ -84,9 +78,11 @@ Access Generative AI models via SDKs of popular cloud service providers.
 - [ReplGPT.jl](https://github.com/ThatcherC/ReplGPT.jl) - Brings ChatGPT interface as a Julia REPL mode.
 - [HelpGPT.jl](https://github.com/FedeClaudi/HelpGPT.jl) - Calls ChatGPT to explain any errors in Julia code.
 - [GenGPT3.jl](https://github.com/probcomp/GenGPT3.jl) - A [Gen.jl](https://www.gen.dev/) generative function that wraps the OpenAI API.
-- [GPTCodingTools.jl](https://github.com/svilupp/GPTCodingTools) - Code generation tool for Julia language with useful prompt templates and self-healing features (ala OpenAI Code Interpreter). It does work, but development has been abandoned. (Disclaimer: I'm the author of this package.)
 - [PromptingTools.jl](https://github.com/svilupp/PromptingTools.jl) - Helps with everyday applications of Large Language Models in Julia by wrapping coming APIs, re-using prompts via templates, and enabling easy transition between different model providers (eg, OpenAI, Ollama). (Disclaimer: I'm the author of this package.)
 - [LLMTextAnalysis.jl](https://github.com/svilupp/LLMTextAnalysis.jl) - Leverage Large Language Models to uncover, evaluate, and label themes/concepts/spectra in large document collections. (Disclaimer: I'm the author of this package.)
+- [AIHelpMe.jl](https://github.com/svilupp/AIHelpMe.jl) - Enhanced AI code assistance by leveraging package documentation (Retrieval Augmented Generation). Comes pre-packaged for common Julia packages, but can be used for any package.
+- [AIHelpUI.jl](https://github.com/BuiltWithGenie/PkgAIHelp) - Web-based graphical interface for AIHelpMe.jl built on top of Stipple.jl.
+- [ProToPortal.jl](https://github.com/svilupp/ProToPortal.jl) - Web-based graphical interface for PromptingTools.jl with extra prompt templates and functionality (Julia code execution and auto-fixing, meta-prompting, auto-critic, speech-to-text entry). Similar to ChatGPT but geared towards Julia.
 
 ## JLL Packages
 
@@ -106,6 +102,7 @@ Applications and products that "work" with Julia language.
 - [Codium.ai](https://codium.ai/) - Great IDE or VSCode plugin for code analysis, suggestion and generation of test suites. Although the tests are written more in the style of Pytest rather than idiomatic Julia. It has a free tier.
 - [Replit](https://replit.com/ai) - Replit's REPL is powered by an in-house model that supports Julia language.
 - [Codeium](https://codeium.com/) - Free alternative to GitHub Copilot with extensions for most editors.
+- [Cursor](https://cursor.sh/) - Alternative IDE based on VSCode with AI-powered code completion and suggestions. It works really well with Julia language.
 
 Julia-affiliated applications and products using LLMs
 
@@ -113,6 +110,18 @@ Julia-affiliated applications and products using LLMs
 - [Genie UI Assistant](https://forem.julialang.org/pgimenez/introducing-genie-ui-assistant-the-ai-powered-ui-builder-for-genie-apps-3jpe) - Genie UI Assistant is a GPT-4 powered 
 UI builder helping [Genie.jl's](https://github.com/GenieFramework/Genie.jl) users create UIs faster using natural language.
 - [Comind](https://comind.me) - A social network, messaging, and LLM interface built in Julia.
+
+## Waiting Room
+
+New projects that are still waiting to prove themselves and collect enough stars.
+
+- [FlashRank.jl](https://github.com/svilupp/FlashRank.jl) - Fast and local document ranking with models that can run on any computer (CPU-based). Based on Python's [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank).
+- [SemanticCaches.jl](https://github.com/svilupp/SemanticCaches.jl) - Smarter caching for GenAI applications with a tiny embedding model - reducing latency, one request at a time.
+- [Spehulak.jl](https://github.com/svilupp/Spehulak.jl) - GenAI observability platform for debugging your LLM calls. Fully integrated with PromptingTools.jl.
+
+## Archived Projects
+
+- [GPTCodingTools.jl](https://github.com/svilupp/GPTCodingTools) - Code generation tool for Julia language with useful prompt templates and self-healing features (ala OpenAI Code Interpreter). It does work, but development has been abandoned. (Disclaimer: I'm the author of this package.)
 
 ## Tutorials/learning
 
