@@ -119,6 +119,9 @@ New projects that are still waiting to prove themselves and collect enough stars
 - [SemanticCaches.jl](https://github.com/svilupp/SemanticCaches.jl) - Smarter caching for GenAI applications with a tiny embedding model - reducing latency, one request at a time.
 - [Spehulak.jl](https://github.com/svilupp/Spehulak.jl) - GenAI observability platform for debugging your LLM calls. Fully integrated with PromptingTools.jl.
 
+Unreleased, experimental but functional:
+- [Milvus.jl](https://github.com/asbisen/Milvus.jl) - A minimal and unofficial implementation of Milvus VectorDB client for Julia.
+
 ## Archived Projects
 
 - [GPTCodingTools.jl](https://github.com/svilupp/GPTCodingTools) - Code generation tool for Julia language with useful prompt templates and self-healing features (ala OpenAI Code Interpreter). It does work, but development has been abandoned. (Disclaimer: I'm the author of this package.)
@@ -128,6 +131,7 @@ New projects that are still waiting to prove themselves and collect enough stars
 - [Tutorial for using LLMs with Transformers.jl](https://info.juliahub.com/large-language-model-llm-tutorial-with-julias-transformers.jl) - A brief tutorial on how to use Transformers.jl to access LLMs from HuggingFace Hub.
 - [Building a RAG Chatbot over DataFrames.jl Documentation - Hands-on Guide](https://forem.julialang.org/svilupp/building-a-rag-chatbot-over-dataframesjl-documentation-hands-on-guide-449m) - A hands-on guide on how to build a RAG chatbot over DataFrames.jl documentation using only minimal dependencies.
 - [GenAI Mini-Tasks: Extracting Data from (.*)? Look No Further!](https://forem.julialang.org/svilupp/genai-mini-tasks-extracting-data-from-look-no-further-2m32) - A tutorial on structured data extraction. A part of a larger series of tutorials on small tasks that can be done with GenAI.
+- [Tiny Binary RAG](https://github.com/domluna/tinyrag/tree/main) - An excellent deep-dive on semantic search (the "R" in RAG). It showcases that with 100 lines of Julia, you can search 15M chunks (~size of Wikipedia) in <20ms.
 
 ## Noteworthy Mentions
 
