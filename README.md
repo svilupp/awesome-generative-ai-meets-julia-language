@@ -36,7 +36,7 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
 
 ## Models
 
-Build, train, and deploy Large language models in Julia.
+Build, train, and deploy Large language models (and other modalities) in Julia.
 
 - [Flux.jl](https://github.com/FluxML/Flux.jl) - Flux is a machine learning library for Julia that is flexible and allows building complex models. However, at the time of writing, I'm not aware of any Large Language Models (LLMs) that have been implemented and trained in Flux.
 - [Transformers.jl](https://github.com/chengchingwen/Transformers.jl) - Transformers.jl is a Julia package that provides a high-level API for using pre-trained transformer models. It also allows to download any models from Hugging Face hub with `@hgf_str` macro string.
@@ -44,7 +44,7 @@ Build, train, and deploy Large language models in Julia.
 - [BytePairEncoding.jl](https://github.com/chengchingwen/BytePairEncoding.jl) - Pure Julia implementation of Byte Pair Encoding (BPE) algorithm. It's used by Transformers.jl to tokenize text.
 - [Llama2.jl](https://github.com/cafaxo/Llama2.jl) - Llama2.jl provides simple code for inference and training of llama2-based language models based on [llama2.c](https://github.com/karpathy/llama2.c). It supports loading quantized weights in GGUF format (`q4_K_S` variant). Other similar projects: [LanguageModels.jl](https://github.com/rai-llc/LanguageModels.jl)
 - [Llama.jl](https://github.com/marcom/Llama.jl/) - Julia interface to llama.cpp, a C/C++ library for running language models locally. Supports a wide range of models.
-
+- [Whisper.jl](https://github.com/aviks/Whisper.jl) - Julia interface to whisper.cpp, a high-performance inference in C/C++ of OpenAI's Whisper automatic speech recognition (ASR) model.
 
 ## API SDKs
 
@@ -146,6 +146,11 @@ Some of the below projects are not necessarily Julia-specific, but noteworthy me
 ### Generative AI - Previous Generation
 
 - [GenerativeModels.jl](https://github.com/aicenter/GenerativeModels.jl) - Useful library to train more traditional generative models like VAEs. It's built on top of Flux.jl.
+
+### Useful Utilities
+
+- [Stipple.jl](https://github.com/GenieFramework/Stipple.jl) - For building interactive data applications in pure Julia (part of Genie.jl ecosystem). Excellent for building web-based interfaces for GenAI applications.
+- [Taro.jl](https://github.com/aviks/Taro.jl) - Powerful parser for various types of documents (interop to Java). Very useful for building Retrieval-Augmented Generation (RAG) applications.
 
 ## Must-Know Python Projects
 
