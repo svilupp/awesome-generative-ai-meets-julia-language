@@ -23,6 +23,8 @@ Generative AI encompasses algorithms and models that leverage large-scale machin
 - [JLL Packages](#jll-packages)
 - [Benchmarks/Comparisons](#benchmarkscomparisons)
 - [Applications/Products](#applicationsproducts)
+- [Waiting Room](#waiting-room)
+- [Archived Projects](#archived-projects)
 - [Tutorials/learning](#tutorialslearning)
 - [Noteworthy Mentions](#noteworthy-mentions)
   - [Local Deployments](#local-deployments)
@@ -119,9 +121,16 @@ New projects that are still waiting to prove themselves and collect enough stars
 - [FlashRank.jl](https://github.com/svilupp/FlashRank.jl) - Fast and local document ranking with models that can run on any computer (CPU-based). Based on Python's [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank).
 - [SemanticCaches.jl](https://github.com/svilupp/SemanticCaches.jl) - Smarter caching for GenAI applications with a tiny embedding model - reducing latency, one request at a time.
 - [Spehulak.jl](https://github.com/svilupp/Spehulak.jl) - GenAI observability platform for debugging your LLM calls. Fully integrated with PromptingTools.jl.
+- [StreamCallbacks.jl](https://github.com/svilupp/StreamCallbacks.jl) - Unifies LLM streaming interfaces, simplifies SSE handling, and provides built-in sinks for streaming data. Easy to extend with custom logic.
+- [LLMCheatsheets.jl](https://github.com/svilupp/LLMCheatsheets.jl) - Summarize GitHub repositories into AI-friendly cheatsheets with a single command.
+- [SwarmAgents.jl](https://github.com/svilupp/SwarmAgents.jl) - Based on OpenAI's Swarm package for multi-agent systems with tight integration with PromptingTools.jl and additional features.
+- [ChromeDevToolsLite.jl](https://github.com/svilupp/ChromeDevToolsLite.jl) - Browser automation using the Chrome DevTools Protocol (CDP). Ideal for Computer Use with LLMs. Inspired by Python's Playwright.
+- [OmniParserIconDetectors.jl](https://github.com/svilupp/OmniParserIconDetectors.jl) - Lightweight Julia wrapper for Microsoft's OmniParser icon detection model with additional utilities for working with screenshots (eg, drawing detections, adding labels).
 
 Unreleased, experimental but functional:
 - [Milvus.jl](https://github.com/asbisen/Milvus.jl) - A minimal and unofficial implementation of Milvus VectorDB client for Julia.
+- [Jjama3.jl](https://github.com/MurrellGroup/Jjama3.jl) - Hackable Llama3.1, Llama3.2 (text), and Qwen 2.5 (eg. base, Qwen2.5-Coder, and Qwen2.5-Math) in Julia.
+
 
 ## Archived Projects
 
