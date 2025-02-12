@@ -82,6 +82,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 - [HelpGPT.jl](https://github.com/FedeClaudi/HelpGPT.jl) - Calls ChatGPT to explain any errors in Julia code.
 - [GenGPT3.jl](https://github.com/probcomp/GenGPT3.jl) - A [Gen.jl](https://www.gen.dev/) generative function that wraps the OpenAI API.
 - [PromptingTools.jl](https://github.com/svilupp/PromptingTools.jl) - Helps with everyday applications of Large Language Models in Julia by wrapping coming APIs, re-using prompts via templates, and enabling easy transition between different model providers (eg, OpenAI, Ollama). (Disclaimer: I'm the author of this package.)
+- [RAGTools.jl](https://github.com/JuliaGenAI/RAGTools.jl) - Build and use Retrieval-Augmented Generation (RAG) systems. A module carved out of PromptingTools.jl.
 - [LLMTextAnalysis.jl](https://github.com/svilupp/LLMTextAnalysis.jl) - Leverage Large Language Models to uncover, evaluate, and label themes/concepts/spectra in large document collections. (Disclaimer: I'm the author of this package.)
 - [AIHelpMe.jl](https://github.com/svilupp/AIHelpMe.jl) - Enhanced AI code assistance by leveraging package documentation (Retrieval Augmented Generation). Comes pre-packaged for common Julia packages, but can be used for any package.
 - [AIHelpUI.jl](https://github.com/BuiltWithGenie/PkgAIHelp) - Web-based graphical interface for AIHelpMe.jl built on top of Stipple.jl.
@@ -124,7 +125,7 @@ New projects that are still waiting to prove themselves and collect enough stars
 - [StreamCallbacks.jl](https://github.com/svilupp/StreamCallbacks.jl) - Unifies LLM streaming interfaces, simplifies SSE handling, and provides built-in sinks for streaming data. Easy to extend with custom logic.
 - [LLMCheatsheets.jl](https://github.com/svilupp/LLMCheatsheets.jl) - Summarize GitHub repositories into AI-friendly cheatsheets with a single command.
 - [SwarmAgents.jl](https://github.com/svilupp/SwarmAgents.jl) - Based on OpenAI's Swarm package for multi-agent systems with tight integration with PromptingTools.jl and additional features.
-- [ChromeDevToolsLite.jl](https://github.com/svilupp/ChromeDevToolsLite.jl) - Browser automation using the Chrome DevTools Protocol (CDP). Ideal for Computer Use with LLMs. Inspired by Python's Playwright.
+- [ChromeDevToolsLite.jl](https://github.com/svilupp/ChromeDevToolsLite.jl) - Browser automation using the Chrome DevTools Protocol (CDP). Ideal for Computer Use with LLMs. Inspired by Python's Playwright but providing just the essential functionality to get you started with browser automation in Julia. 
 - [OmniParserIconDetectors.jl](https://github.com/svilupp/OmniParserIconDetectors.jl) - Lightweight Julia wrapper for Microsoft's OmniParser icon detection model with additional utilities for working with screenshots (eg, drawing detections, adding labels).
 
 Unreleased, experimental but functional:
