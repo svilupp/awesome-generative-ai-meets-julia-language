@@ -127,6 +127,7 @@ New projects that are still waiting to prove themselves and collect enough stars
 - [SwarmAgents.jl](https://github.com/svilupp/SwarmAgents.jl) - Based on OpenAI's Swarm package for multi-agent systems with tight integration with PromptingTools.jl and additional features.
 - [ChromeDevToolsLite.jl](https://github.com/svilupp/ChromeDevToolsLite.jl) - Browser automation using the Chrome DevTools Protocol (CDP). Ideal for Computer Use with LLMs. Inspired by Python's Playwright but providing just the essential functionality to get you started with browser automation in Julia. 
 - [OmniParserIconDetectors.jl](https://github.com/svilupp/OmniParserIconDetectors.jl) - Lightweight Julia wrapper for Microsoft's OmniParser icon detection model with additional utilities for working with screenshots (eg, drawing detections, adding labels).
+- [grugbot420](https://github.com/grug-group420/grugbot420) - A neuromorphic cognitive engine in Julia for multi-model AI orchestration. Deploys domain-expert AI specimens through architectural configuration rather than traditional training.
 
 Unreleased, experimental but functional:
 - [Milvus.jl](https://github.com/asbisen/Milvus.jl) - A minimal and unofficial implementation of Milvus VectorDB client for Julia.
