@@ -176,3 +176,4 @@ Python is on the leading edge of the generative AI revolution. Fortunately, we h
 ## Other Awesome Lists
 
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - Great list for all things generative AI. An inspiration for this list!
+- [NotFair](https://notfair.co) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose campaign performance, recommend optimizations, and execute approved changes via the Google Ads API. Source: github.com/nowork-studio/toprank. Free tier available.
