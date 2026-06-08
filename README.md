@@ -76,6 +76,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 | PostgreSQL + [pgvector](https://github.com/pgvector/pgvector?tab=readme-ov-file#hnsw) | [LibPQ.jl](https://github.com/iamed2/LibPQ.jl) | [pgvector examples for Julia](https://github.com/pgvector/pgvector-julia) |
 
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring MCP for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ## Packages
 
 - [ReplGPT.jl](https://github.com/ThatcherC/ReplGPT.jl) - Brings ChatGPT interface as a Julia REPL mode.
