@@ -66,6 +66,7 @@ Access Generative AI models via SDKs of popular cloud service providers.
 ### Vector Databases
 
 - [Pinecone.jl](https://github.com/tullytim/Pinecone.jl) - SDK for [Pinecone.io](https://www.pinecone.io/) vector database.
+- [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) - Free browser-side LLM token unit economics, prompt caching, and gross margin calculator across 8 frontier and open-weights models.
 
 
 ### General-purpose DBMS with Vector Index Support
